@@ -63,7 +63,32 @@
     
     ERROR: "REMOTE ORIGIN ALREADY EXIST"
     pegar el link y en vez de decir "git remote add origin ....." tiene que decir "git remote set-url origin ....."
-    -->
+    
+    HACER CAMBIOS EN EL DOCUMNENTO:
+    cuando hacemos un cambio, nos aparece una M al lado del nombre del archivo
+    y ahi lo tenemos que guardar de nuevo, commiteaste de forma local, pero después tenes que pushearlo (subirlo a internet, a github)
+    Y depende de como reaccione el visual ponemos "push" solo o "push ..." completo como al principio.
+
+    CREAMOS UNA RAMA:
+    "git checkout -b mi-rama" creamos la rama y al mismo tiempo nos pasamos a master. Esto lo chequeamos abajo donde esta el simbolo de las lineas, donde diria main o nombre de la rama.
+    trabajo en paralelo en otra rama, pero hago lo mismo "git commit y ad ." y después push.
+    en el GitHub vemos las distintas ramas creadas. seleccionando las ramas vemos que se hizo en cada una de ellas.
+    para volver a la master: "git checkout master" o main si es. y si me quiero posicionar en otra rama, pongo eso pero con el nobmre de la rama.
+    si los quiero traer a la master: "git marge mi-rama" en la master aparece lo que hice en mi Ram. esto se hace desde la master, posicionado en ella. sino otra opcion es hacerlo directamente en Github, hago un marge y un pull al mismo tiempo.
+    esto es fundamental cuando estoy al final del trabajo, y quiero probar algo nuevo, que para que no me rompa el codigo lo hago en esta rama, de ese modo no rompo el proyecto ppal.
+
+    GITHUB PAGES:
+    Te permite poder visualizar el proyecto.
+    nos agarra un repositorio, y genera una pagina. 
+    voy a un archivo y dice en GITHUB github page activado: nos da una url, que si lo pongo en internet. 
+    la activamos y vemos como reacciona el codigo del proyecto.
+    lo que tieen es que la url la puede abrir cualquiera, permite únicamente un repositorio. 
+    Vamos al repositorio, settings, pages: en "source" poner la rama que queremos activar. si ponemos Save, se activa.
+
+    TRABAJO COLABORATIVO:
+    si quiero que mi repositorio lo use otro, voy a settings, colaboradores, agrego el password y "add people". ahi agrego el user name del que quiero que colabore.
+    
+-->
 
 
 </body>
